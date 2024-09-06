@@ -42,5 +42,9 @@ const deleteChatbot = async (req, res) => {
 
 
 export default {
-    createChatbot: createChatbot
+    createChatbot: createChatbot,
+    getChatbot: getChatbot,
+    updateChatbot: updateChatbot,
+    deleteChatbot: deleteChatbot
+    
 }
